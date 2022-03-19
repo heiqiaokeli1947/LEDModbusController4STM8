@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1395050882</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\List\FLASH.lst</file>
+      <file>$PROJ_DIR$\iostm8s003f3.h</file>
+      <file>$PROJ_DIR$\Debug\List\main.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\RelayCtrl.pbd</file>
+      <file>$PROJ_DIR$\Debug\List\ModbusDeal.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\CfgParam.o</file>
+      <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\int.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\int.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\List\Wdg.lst</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Wdg.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Modbus.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\Modbus.lst</file>
+      <file>$PROJ_DIR$\Sys.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\FLASH.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\List\CfgParam.lst</file>
+      <file>$PROJ_DIR$\Debug\List\RelayCtrl.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\CfgParam.pbi</file>
+      <file>$TOOLKIT_DIR$\config\lnkstm8s003f3.icf</file>
+      <file>$PROJ_DIR$\Debug\List\crc16.lst</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\Wdg.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc16.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\GPIO.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ModbusDeal.o</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc16.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ModbusDeal.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\FLASH.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\GPIO.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\RelayCtrl.hex</file>
+      <file>$PROJ_DIR$\Debug\List\int.lst</file>
+      <file>$PROJ_DIR$\Modbus\crc16.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\RelayCtrl.out</file>
+      <file>$PROJ_DIR$\Debug\List\GPIO.lst</file>
+      <file>$PROJ_DIR$\Modbus\Modbus.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Modbus.o</file>
+      <file>$PROJ_DIR$\Modbus\ModbusDeal.c</file>
+      <file>$PROJ_DIR$\Modbus\crc16.c</file>
+      <file>$PROJ_DIR$\Modbus\ModbusDeal.h</file>
+      <file>$PROJ_DIR$\Modbus\Modbus.c</file>
+      <file>$PROJ_DIR$\Wdg\Wdg.c</file>
+      <file>$PROJ_DIR$\Interrupt\int.h</file>
+      <file>$PROJ_DIR$\Wdg\Wdg.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Interrupt\int.c</file>
+      <file>$PROJ_DIR$\Flash\CfgParam.c</file>
+      <file>$PROJ_DIR$\IO\GPIO.c</file>
+      <file>$PROJ_DIR$\Flash\FLASH.c</file>
+      <file>$PROJ_DIR$\Flash\FLASH.h</file>
+      <file>$PROJ_DIR$\IO\GPIO.h</file>
+      <file>$PROJ_DIR$\Flash\CfgParam.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 42 21</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\RelayCtrl.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 22 18 38 15 35 26 34 8 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\RelayCtrl.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 23 6 36 29 45 31 14 28 9 5 27 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Modbus\ModbusDeal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 4 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 17 1 7 44 41 51 62 60 61</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 48 17 1 7 44 41 51 62 60 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Modbus\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 24 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 17 1 7</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 41 17 1 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Modbus\Modbus.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 16 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44 41 17 1 7 51 30 13 55 37 11 54 19 10 48 62 60</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 44 41 17 1 7 51 30 13 55 37 32 11 54 19 10 48 62 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Wdg\Wdg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 12 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 17 1 7</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 52 17 1 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 2 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 7 44 41 17 51 62 60 30 13 55 37 11 54 19 10 63 64 61 52</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 1 7 44 41 17 51 62 60 30 13 55 37 32 11 54 19 10 63 64 61 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Interrupt\int.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 40 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 17 1 7</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 51 17 1 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Flash\CfgParam.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 20 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 60 17 1 7</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 62 60 17 1 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\IO\GPIO.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 43 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 17 1 7</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 61 17 1 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Flash\FLASH.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 0 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 17 1 7</file>
+        </tool>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 60 17 1 7</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
